@@ -77,6 +77,13 @@ h2 {
   text-align: center;
 }
 
+.dropzone:hover {
+  border-style: solid;
+  border: 5px solid #bbb;
+  background-color: #eee;
+  cursor: pointer;
+}
+
 .dropzone img.spinner {
   margin-top: 6em;
 }
@@ -107,7 +114,7 @@ h2 {
   height: 100%;
 }
 
-.template:hover img, .template.current img {
+.template img:hover, .template.current img {
   outline: 8px solid rgb(0, 157, 111);
 }
 
